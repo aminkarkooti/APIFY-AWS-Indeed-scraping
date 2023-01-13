@@ -1,1 +1,2 @@
-# APIFY-AWS-Indeed-scraping
+# AWS-APIFY-Indeed-scraping
+Scraping indeed using Apify and AWS Lambda

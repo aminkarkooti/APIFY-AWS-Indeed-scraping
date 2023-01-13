@@ -1,0 +1,22 @@
+{
+  "resources": [
+    {
+      "name": "default-role",
+      "resource_type": "iam_role",
+      "role_arn": "arn:aws:iam::128613689244:role/indeed_proj-dev",
+      "role_name": "indeed_proj-dev"
+    },
+    {
+      "name": "every_three_days",
+      "resource_type": "lambda_function",
+      "lambda_arn": "arn:aws:lambda:us-west-2:128613689244:function:indeed_proj-dev-every_three_days"
+    },
+    {
+      "name": "every_three_days-event",
+      "resource_type": "cloudwatch_event",
+      "rule_name": "indeed_proj-dev-every_three_days-event"
+    }
+  ],
+  "schema_version": "2.0",
+  "backend": "api"
+}
